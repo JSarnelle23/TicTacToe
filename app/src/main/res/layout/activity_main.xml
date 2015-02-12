@@ -20,7 +20,7 @@
             android:text="@string/app_name"
             android:id="@+id/textView"
             android:layout_gravity="center_horizontal"
-            android:textColor="#ff0b09ff"
+            android:textColor="#ff000000"
             android:textSize="75dp"
             android:textStyle="bold" />
 
@@ -39,21 +39,55 @@
                 <Button
                     android:layout_width="180dp"
                     android:layout_height="180dp"
-                    android:text="New Button"
-                    android:id="@+id/button" />
+                    android:text="@string/empty_space"
+                    android:id="@+id/buttonOne"
+                    android:layout_marginRight="5dp"
+                    android:textStyle="bold"
+                    android:textSize="100dp"
+                    android:textAlignment="center"/>
 
                 <Button
                     android:layout_width="180dp"
                     android:layout_height="180dp"
-                    android:text="New Button"
-                    android:id="@+id/button2"
-                    android:layout_column="1" />
+                    android:text="@string/empty_space"
+                    android:id="@+id/buttonTwo"
+                    android:layout_column="1"
+                    android:layout_marginRight="5dp"
+                    android:textSize="100dp"/>
 
                 <Button
                     android:layout_width="180dp"
                     android:layout_height="180dp"
-                    android:text="New Button"
-                    android:id="@+id/button3"
+                    android:text="@string/empty_space"
+                    android:id="@+id/buttonThree"
+                    android:layout_column="2"
+                    android:textSize="100dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:text="@string/empty_space"
+                    android:id="@+id/buttonFour"
+                    android:layout_marginRight="5dp"/>
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:text="@string/empty_space"
+                    android:id="@+id/buttonFive"
+                    android:layout_column="1"
+                    android:layout_marginRight="5dp"/>
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:text="@string/empty_space"
+                    android:id="@+id/buttonSix"
                     android:layout_column="2" />
             </TableRow>
 
@@ -64,46 +98,23 @@
                 <Button
                     android:layout_width="180dp"
                     android:layout_height="180dp"
-                    android:text="New Button"
-                    android:id="@+id/button4" />
+                    android:text="@string/empty_space"
+                    android:id="@+id/buttonSeven"
+                    android:layout_marginRight="5dp"/>
 
                 <Button
                     android:layout_width="180dp"
                     android:layout_height="180dp"
-                    android:text="New Button"
-                    android:id="@+id/button5"
-                    android:layout_column="1" />
+                    android:text="@string/empty_space"
+                    android:id="@+id/buttonEight"
+                    android:layout_column="1"
+                    android:layout_marginRight="5dp"/>
 
                 <Button
                     android:layout_width="180dp"
                     android:layout_height="180dp"
-                    android:text="New Button"
-                    android:id="@+id/button6"
-                    android:layout_column="2" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
-
-                <Button
-                    android:layout_width="180dp"
-                    android:layout_height="180dp"
-                    android:text="New Button"
-                    android:id="@+id/button7" />
-
-                <Button
-                    android:layout_width="180dp"
-                    android:layout_height="180dp"
-                    android:text="New Button"
-                    android:id="@+id/button8"
-                    android:layout_column="1" />
-
-                <Button
-                    android:layout_width="180dp"
-                    android:layout_height="180dp"
-                    android:text="New Button"
-                    android:id="@+id/button9"
+                    android:text="@string/empty_space"
+                    android:id="@+id/buttonNine"
                     android:layout_column="2" />
             </TableRow>
         </TableLayout>

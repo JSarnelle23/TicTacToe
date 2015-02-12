@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">TicTacToe</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="empty_space"> </string>
+    <string name="human_player" color="red">X</string>
+    <string name="computer_player" color="blue">O</string>
+
 </resources>
