@@ -13,10 +13,17 @@ import android.widget.TextView;
 public class MainActivity extends ActionBarActivity
 {
     //BEGIN GLOBAL VARIABLES
-    private int mTurn = 0;
+    private int mCol = 0;
+    private int mGameCount = 0;
     private int mGameStatus = 0;
+    private int mRow = 0;
+    private int mTurn = 0;
 
-    private String[] mBoardState = new String[9];
+    private PlayArea mGame = null;
+
+    private String mComputer = null;
+    private String mHuman1 = null;
+    private String mHuman2 = null;
 
     private TextView mTextComputerSpace;
     private TextView mTextEmptySpace;
@@ -29,6 +36,9 @@ public class MainActivity extends ActionBarActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mGame = new PlayArea();
+
 
     }
 
